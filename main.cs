@@ -10,7 +10,6 @@ class Program
     {
         string firstname;
         int age;
-        
         Console.WriteLine("Enter first name:");
         firstname = Console.ReadLine();
         Console.WriteLine("Enter age:");
