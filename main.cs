@@ -11,18 +11,18 @@ class Program
         string firstname;
         int age;
         
-        Console.WriteLine ("Enter first name:");
+        Console.WriteLine("Enter first name:");
         firstname = Console.ReadLine();
-        Console.WriteLine ("Enter age:");
+        Console.WriteLine("Enter age:");
         age = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine ("");
+        Console.WriteLine("");
         if (age == 1)
         {
-            Console.WriteLine ("Your first name is " + firstname + " and you are " + age + " year old.");
+            Console.WriteLine("Your first name is " + firstname + " and you are " + age + " year old.");
         }
-        else 
+        else
         {
-            Console.WriteLine ("Your first name is " + firstname + " and you are " + age + " years old.");
+            Console.WriteLine("Your first name is " + firstname + " and you are " + age + " years old.");
         }
         Console.WriteLine("\nFinished.");
     }
