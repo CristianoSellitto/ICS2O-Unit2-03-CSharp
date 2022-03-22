@@ -11,6 +11,7 @@ class Program
         firstname = Console.ReadLine();
         Console.WriteLine ("Enter age:");
         age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine ("");
         if (age == 1)
         {
             Console.WriteLine ("Your first name is " + firstname + " and you are " + age + " year old.");
